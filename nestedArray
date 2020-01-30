@@ -1,0 +1,13 @@
+for (var artist of [
+  'Iggy',
+  'Benny',
+  'Queendalin'
+]) {
+  for (var band of [
+    'Grasshoppers',
+    'Developers',
+    'Beauties'
+  ]) {
+    console.log(artist + ' and the ' + band);
+  }
+}
